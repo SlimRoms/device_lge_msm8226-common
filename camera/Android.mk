@@ -11,7 +11,7 @@ LOCAL_C_INCLUDES := \
 	    system/media/camera/include
 
 LOCAL_SHARED_LIBRARIES := \
-	    libhardware liblog libcamera_client libutils libcutils libdl
+	    libhardware liblog libcamera_client libutils libcutils libdl libgui
 
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
 LOCAL_CFLAGS := -Werror
